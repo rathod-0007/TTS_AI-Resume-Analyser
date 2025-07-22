@@ -1,0 +1,14 @@
+streamlit
+pdfminer.six
+sentence-transformers
+scikit-learn
+groq
+python-dotenv
+sounddevice
+numpy
+scipy
+faster-whisper
+matplotlib
+plotly
+language-tool-python
+PyPDF2
