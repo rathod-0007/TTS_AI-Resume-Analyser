@@ -1,4 +1,4 @@
-# 🌟 AI Resume Analyzer
+# ⚙️ AI Resume Analyzer
 
 Welcome to the **AI Resume Analyzer** – your personal AI-powered career assistant!  
 This Streamlit web app helps you improve your resume and increase your chances of landing your dream job by comparing your resume to real job descriptions using powerful AI models like **LLAMA-3** and **BERT**.
@@ -67,3 +67,55 @@ pip install -r requirements.txt
 
 # 4. Run the app
 streamlit run app.py
+
+---
+
+## 📌 Tech Stack
+
+This project combines modern AI tools with an intuitive interface to deliver powerful resume insights:
+
+- **🖥️ Frontend**: [Streamlit](https://streamlit.io/) – for creating interactive web apps in Python.
+  
+- **🧠 AI Models**:
+  - [LLAMA-3](https://groq.com/) via Groq API – for in-depth resume feedback.
+  - [BERT](https://www.sbert.net/) via SentenceTransformers – for job-resume similarity scoring.
+
+- **📄 PDF Parsing**: [pdfminer.six](https://github.com/pdfminer/pdfminer.six) – to extract clean text from resume PDFs.
+
+- **🎙️ Speech-to-Text**: [FasterWhisper](https://github.com/guillaumekln/faster-whisper) – to transcribe voice input.
+
+- **📊 Visualization**: [Plotly](https://plotly.com/python/) – for radar charts and interactive graphs.
+
+---
+
+## 🤝 Contributing
+
+We’d love your help to make this tool even better!
+
+Whether it’s fixing bugs, suggesting new features, or improving documentation — contributions of all kinds are welcome.
+
+To contribute:
+
+1. **Fork** the repository  
+2. **Create a new branch**  
+   ```bash
+   git checkout -b feature-name
+
+---
+
+## 📜 License
+
+This project is licensed under the **[MIT License](LICENSE)**.  
+You're free to use, modify, and distribute it — just provide proper attribution.
+
+---
+
+## 📫 Contact
+
+Got a question or feedback? Let’s connect:
+
+- 📧 **Email**: [rathodpavan2292@gmail.com](mailto:rathodpavan2292@gmail.com)  
+- 🔗 **LinkedIn**: [Rathod Pavan Kumar](https://www.linkedin.com/in/rathod-pavan-kumar/)
+
+---
+
