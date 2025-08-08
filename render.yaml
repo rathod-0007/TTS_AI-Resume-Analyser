@@ -3,7 +3,8 @@ services:
     name: TTS_AI-Resume-Analyser
     env: python
     buildCommand: |
-      sudo apt-get update && sudo apt-get install -y portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg
+      sudo apt-get update
+      sudo apt-get install -y portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg openjdk-17-jre
       pip install --upgrade pip
       pip install -r requirements.txt
     startCommand: streamlit run main.py --server.port $PORT --server.address 0.0.0.0
